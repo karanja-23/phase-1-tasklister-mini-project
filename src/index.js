@@ -52,7 +52,7 @@ function showTodos(){
   })
   .then(response => response.json())//converts JSON object into a javascript object
   .then (tasks => {
-    displayEachTask(tasks)// displays the tasks in the DOM
+    displayEachTask(tasks)// displays the tasks in the DOM 
   })
 }
 
