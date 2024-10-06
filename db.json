@@ -1,18 +1,3 @@
 {
-  "task": [
-    {
-      "id": "50bf",
-      "name": "Complete Today's codeGrades",
-      "description": "Objects, functions, arrays",
-      "date": "13:55",
-      "priority": "low"
-    },
-    {
-      "id": "9aad",
-      "name": "Wash dishes",
-      "description": "Wash dishes",
-      "date": "13:55",
-      "priority": "high"
-    }
-  ]
+  "task": []
 }
