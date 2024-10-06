@@ -100,3 +100,21 @@ label{
   padding: 5px 15px 5px 15px ;
   color: black;
 }
+#task_desc{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30%;
+  text-align: start;
+}
+
+#task_desc :nth-child(1), #task_desc :nth-child(2){
+  margin: 0px;
+}
+#task_desc :nth-child(2){
+  margin-bottom: 4px;
+}
+.priority{
+  border-radius: 15px;
+  padding: 7px 12px 7px 12px;
+}

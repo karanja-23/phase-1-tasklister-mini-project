@@ -70,9 +70,9 @@ function displayEachTask(tasks){
     `
     if(task.priority === 'high'){
       setTimeout(() => {
-        list.querySelector('.priority').style.color = 'red'
+        list.querySelector('.priority').style.backgroundColor = 'red'
 
-      },3000)
+      },2000)
     }
     const deleteButton = list.querySelector('.fa-times')
     deleteButton.addEventListener('click', function(){
@@ -110,18 +110,5 @@ function addTodo(toDoObj){
 }
 
 
-/*function deleteToDo(){
-  console.log('hi')
- const deletebtns = document.querySelectorAll('.fa.fa-times')
- 
-  deletebtns.forEach(function(btn){
-    btn.addEventListener('click', function(event){
-      console.log('hi')
-      list.remove()
-    })
-  })
-}*/
+
 initialize();
-/*document.addEventListener('DOMContentLoaded', function(){
-  deleteToDo();
-});*/
