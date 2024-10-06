@@ -1,3 +1,25 @@
 {
-  "task": []
+  "task": [
+    {
+      "id": "b90f",
+      "name": "Start Weekend challenge",
+      "description": "My todo app",
+      "date": "18:32",
+      "priority": "high"
+    },
+    {
+      "id": "66c9",
+      "name": "Wash dishes",
+      "description": "Wash dishes",
+      "date": "08:46",
+      "priority": "low"
+    },
+    {
+      "id": "67a9",
+      "name": "Complete Today's codeGrades",
+      "description": "Objects, functions, arrays",
+      "date": "20:47",
+      "priority": "high"
+    }
+  ]
 }

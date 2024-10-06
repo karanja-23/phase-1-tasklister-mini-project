@@ -94,11 +94,12 @@ label{
   
 }
 #close_icon{
-  font-size: large;
-  font-weight: 100;
-  background-color: rgb(168, 168, 184);
-  padding: 5px 15px 5px 15px ;
-  color: black;
+  font-size: x-large;
+  font-weight: 100;  
+  padding: 3px 10px 3px 10px ;
+  color: rgb(247, 240, 240);  
+  cursor: pointer;
+  margin-right: -2px;
 }
 #task_desc{
   display: flex;
@@ -117,4 +118,6 @@ label{
 .priority{
   border-radius: 15px;
   padding: 7px 12px 7px 12px;
+  border: 1px solid rgb(243, 239, 247);
+  font-weight: 900;
 }
